@@ -88,6 +88,20 @@
             text-decoration: none;
             cursor: pointer;
         }
+        .back-button {
+            display: inline-block;
+            background-color: #008f3c; /* War na latar belakang tombol */
+            color: white; /* Warna teks tombol */
+            padding: 10px 20px; /* Padding atas-bawah dan kiri-kanan */
+            text-decoration: none; /* Menghilangkan garis bawah */
+            border-radius: 5px; /* Sudut membulat */
+            text-align: center; /* Teks di tengah */
+            margin: 20px 0; /* Margin atas dan bawah */
+        }
+
+        .back-button:hover {
+            background-color: #006f2c; /* Warna latar belakang saat hover */
+        }
     </style>
 </head>
 <body>
@@ -98,6 +112,7 @@
 
 <div class="container">
     <h2>Daftar Guru</h2>
+    <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
 </div>
 <div class="guru">
     <img src="atik.jpg" alt="atik, S.Pd" onclick="openModal(this.src)">
@@ -108,74 +123,73 @@
         <p>Alamat   : Kemudo, Prambanan, Klaten</p>
     </div>
 </div>
-    <div class="guru">
-        <img src="eka.jpg" alt="EKA SUPRAPTI S.Pd, M.Pd" onclick="openModal(this.src)">
-        <div>
-            <h2>2. EKA SUPRAPTI, S.Pd, M.Pd</h2>
-            <p>Kepala Sekolah</p>
-            <p>Jabatan  : Kepala Sekolah</p>
-            <p>Alamat   : Margorejo, Canan, Wedi, Klaten</p>
-        </div>
-    </div>
-
-    <div class="guru">
-        <img src="diyah.jpg" alt="DIYAH ARIS FATONAH S.Pd" onclick="openModal(this.src)">
-        <div>
-            <h2>3. DIYAH ARIS FATONAH, S.Pd</h2>
-            <p>Kelas TK B 4</p>
-            <p>Jabatan  : Guru Kelas</p>
-            <p>Alamat   : Margorejo, Canan, Wedi, Klaten</p>
-        </div>
-    </div>
-
-    <div class="guru">
-        <img src="sofi.jpg" alt="REINA SOFIANA, S.Pd" onclick="openModal(this.src)">
-        <div>
-            <h2>4. REINA SOFIANA, S.Pd</h2>
-            <p>Kelas TK A 2</p>
-            <p>Jabatan  : Guru Kelas dan Operator</p>
-            <p>Alamat   : Kebondalem Kidul, Prambanan, Klaten</p>
-        </div>
-    </div>
-    
-    <div class="guru">
-        <img src="wiwin.jpg" alt="WIWIN WINDRIANI, S.Pd.AUD" onclick="openModal(this.src)">
-        <div>
-            <h2>5. WIWIN WINDRIANI, S.Pd.AUD</h2>
-            <p>Kelas TK B 3</p>
-            <p>Jabatan  : Guru Kelas</p>
-            <p>Alamat   : Kemudo, Prambanan, Klaten</p>
-        </div>
-    </div>
-    
-    <div class="guru">
-        <img src="semi.jpg" alt="SEMI, S.Pd" onclick="openModal(this.src)">
-        <div>
-            <h2>6. SEMI, S.Pd</h2>
-            <p>Kelas TK B 2</p>
-            <p>Jabatan  : Guru Kelas</p>
-            <p>Alamat   : Kemudo, Prambanan, Klaten</p>
-        </div>
-    </div>
-    <div class="guru">
-        <img src="mardini.jpg" alt="mardini, S.Pd" onclick="openModal(this.src)">
-        <div>
-            <h2>7. MARDINI, S.Pd.AUD</h2>
-            <p>Kelas TK A 1</p>
-            <p>Jabatan  : Guru Kelas</p>
-            <p>Alamat   : Cucukan, Prambanan, Klaten</p>
-        </div>
-    </div>
-    <div class="guru">
-        <img src="hervi.jpg" alt="hervi, S.Pd" onclick="openModal(this.src)">
-        <div>
-            <h2>8. HERVI NOVITA SARI, S.M</h2>
-            <p>Jabatan  : Ketenaga Kerjaan</p>
-            <p>Alamat   : Kemudo, Prambanan, Klaten</p>
-        </div>
+<div class="guru">
+    <img src="eka.jpg" alt="EKA SUPRAPTI S.Pd, M.Pd" onclick="openModal(this.src)">
+    <div>
+        <h2>2. EKA SUPRAPTI, S.Pd, M.Pd</h2>
+        <p>Kepala Sekolah</p>
+        <p>Jabatan  : Kepala Sekolah</p>
+        <p>Alamat   : Margorejo, Canan, Wedi, Klaten</p>
     </div>
 </div>
 
+<div class="guru">
+    <img src="diyah.jpg" alt="DIYAH ARIS FATONAH S.Pd" onclick="openModal(this.src)">
+    <div>
+        <h2>3. DIYAH ARIS FATONAH, S.Pd</h2>
+        <p>Kelas TK B 4</p>
+        <p>Jabatan  : Guru Kelas</p>
+        <p>Alamat   : Margorejo, Canan, Wedi, Klaten</p>
+    </div>
+</div>
+
+<div class="guru">
+    <img src="sofi.jpg" alt="REINA SOFIANA, S.Pd" onclick="openModal(this.src)">
+    <div>
+        <h2>4. REINA SOFIANA, S.Pd</h2>
+        <p>Kelas TK A 2</p>
+        <p>Jabatan  : Guru Kelas dan Operator</p>
+        <p>Alamat   : Kebondalem Kidul, Prambanan, Klaten</p>
+    </div>
+</div>
+
+<div class="guru">
+    <img src="wiwin.jpg" alt="WIWIN WINDRIANI, S.Pd.AUD" onclick="openModal(this.src)">
+    <div>
+        <h2>5. WIWIN WINDRIANI, S.Pd.AUD</h2>
+        <p>Kelas TK B 3</p>
+        <p>Jabatan  : Guru Kelas</p>
+        <p>Alamat   : Kemudo, Prambanan, Klaten</p>
+    </div>
+</div>
+
+<div class="guru">
+    <img src="semi.jpg" alt="SEMI, S.Pd" onclick="openModal(this.src)">
+    <div>
+        <h2>6. SEMI, S.Pd</h2>
+        <p>Kelas TK B 2</p>
+        <p>Jabatan  : Guru Kelas</p>
+        <p>Alamat   : Kemudo, Prambanan, Klaten</p>
+    </div>
+</div>
+<div class="guru">
+    <img src="mardini.jpg" alt="mardini, S.Pd" onclick="openModal(this.src)">
+    <div>
+        <h2>7. MARDINI, S.Pd.AUD</h2>
+        <p>Kelas TK A 1</p>
+        <p>Jabatan  : Guru Kelas</p>
+        <p>Alamat   : Cucukan, Prambanan, Klaten</p>
+    </div>
+</div>
+<div class="guru">
+    <img src="hervi.jpg" alt="hervi, S.Pd" onclick="open Modal(this.src)">
+    <div>
+        <h2>8. HERVI NOVITA SARI, S.M</h2>
+        <p>Jabatan  : Ketenaga Kerjaan</p>
+        <p>Alamat   : Kemudo, Prambanan, Klaten</p>
+    </div>
+</div>
+</div>
 
 <!-- Modal untuk menampilkan gambar yang lebih besar -->
 <div id="myModal" class="modal">
